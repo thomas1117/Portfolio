@@ -1,3 +1,7 @@
+
+body {
+
+}
 #nav {
 	position: relative;
 	top:0;
@@ -20,10 +24,11 @@ li {
 }
 
 #header h2 {
-	background: #251754;
+	background: #7DD;
 	height:200px;
 	position: relative;
 	color:#fff;
+	margin:0;
 }
 
 #github {
@@ -34,7 +39,52 @@ li {
 	position: absolute;
 	right:40px;
 }
-
+#profileImg {
+	width:150px;
+	height:230px;
+}
 .container {
 	width:100%;
+}
+
+#contentMaster {
+	background: #fff;
+}
+
+
+
+#projects {
+	text-align: center;
+}
+
+.projectImg {
+	width:200px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.etsy {
+	width:200px;
+}
+.row {
+	width:80%;
+	margin:auto;
+	margin-top: 30px;
+	background: #f7f7f7;
+}
+
+#footer {
+	background: #333333;
+	width: 100%;
+	height:48px;
+}
+
+#footer li {
+	float: left;
+}
+
+.projects {
+
+	margin-bottom: 55px;
+	
 }
