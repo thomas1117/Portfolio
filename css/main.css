@@ -1,8 +1,40 @@
 #nav {
-	position: absolute;
+	position: relative;
 	top:0;
-	
-	background: #888;
+	height:48px;
+	background: #333333;
 	color:#fff;
+	width:100%;
+}
+
+.navLi {
+	float: left;
+	color: #fff;
+}
+.navLi a {
+	color:#fff;
+	text-decoration: none;
+}
+li {
+	list-style:none;
+}
+
+#header h2 {
+	background: #251754;
+	height:200px;
+	position: relative;
+	color:#fff;
+}
+
+#github {
+	position: absolute;
+	right:120px;
+}
+#linkedIn {
+	position: absolute;
+	right:40px;
+}
+
+.container {
 	width:100%;
 }
