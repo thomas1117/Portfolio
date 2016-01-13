@@ -111,6 +111,7 @@ li {
 	display: inline-block;
 	background: #000;
 	border-radius: 5px;
+	position: relative;
 }
 
 
@@ -120,23 +121,23 @@ li {
 	position: absolute;
 	bottom:-25px;
 	color:#fff;
-	background: #000;
 	width: 100%;
 }
 
 #projectContainer {
-	    background: #f7f7f7;
 	    position: relative;
 	    
 		
-	}
+	
 }
 .projects:hover .description {
 	display: block;
+	position: absolute;
+
 }
 
 .projects:hover img {
-	opacity: .5;
+	opacity: .3;
 }
 
 #master {
