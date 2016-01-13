@@ -3,6 +3,13 @@ body {
 	position: absolute;
 	top: -25px;
 }
+
+@media (max-width: 1005px) {
+	
+	
+}
+
+
 #nav {
 	position: relative;
 	top:0;
@@ -32,6 +39,9 @@ li {
 	margin:0;
 }
 
+#info {
+	width:100%;
+}
 #github {
 	position: absolute;
 	right:120px;
@@ -52,18 +62,21 @@ li {
 
 #contentMaster {
 	background: #fff;
+	position: relative;
+	margin:auto;
 }
 
 
 
 #projects {
 	text-align: center;
+	margin:auto;
 }
 
 .projectImg {
-	width: 250px;
+	width: 270px;
     height: 250px;
-    display: block;
+    display: inline-block;
     position: relative;
     margin: auto;
     border: 1px solid #888;
@@ -84,6 +97,7 @@ li {
 	background: #333333;
 	width: 100%;
 	height:48px;
+	float: left;
 }
 
 #footer li {
@@ -91,10 +105,10 @@ li {
 }
 
 .projects {
-	margin-left:15px;
+	margin-right:13px;
 	margin-bottom: 55px;
-	position: relative;
-	float: left;
+	height:250px;
+	display: inline-block;
 	background: #000;
 	border-radius: 5px;
 }
@@ -107,11 +121,15 @@ li {
 	bottom:-25px;
 	color:#fff;
 	background: #000;
+	width: 100%;
 }
 
 #projectContainer {
-	background: #f7f7f7;
-	margin:auto;
+	    background: #f7f7f7;
+	    position: relative;
+	    
+		
+	}
 }
 .projects:hover .description {
 	display: block;
@@ -119,6 +137,21 @@ li {
 
 .projects:hover img {
 	opacity: .5;
+}
+
+#master {
+	position: relative;
+	width:100%;
+	margin:auto;
+}
+
+#wrapper {
+	width:85%;
+	margin:auto;
+}
+
+#test {
+	text-align: center;
 }
 
 
