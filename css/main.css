@@ -4,10 +4,14 @@ body {
 	top: -25px;
 }
 
-@media (max-width: 1005px) {
-	
+@media  (max-width: 1355px) {
+	 body .projectImg {
+		width:350px;
+	}
 	
 }
+
+
 
 
 #nav {
@@ -126,9 +130,6 @@ li {
 
 #projectContainer {
 	    position: relative;
-	    
-		
-	
 }
 .projects:hover .description {
 	display: block;
@@ -147,7 +148,6 @@ li {
 }
 
 #wrapper {
-	width:85%;
 	margin:auto;
 }
 
