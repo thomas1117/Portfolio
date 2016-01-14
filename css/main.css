@@ -2,6 +2,7 @@
 body {
 	position: absolute;
 	top: -25px;
+	background:#fdfdfd;
 }
 
 @media  (max-width: 1355px) {
@@ -11,8 +12,34 @@ body {
 	
 }
 
+#form1 {
+	width:350px;
+	background: #f7f7f7;
+	position: absolute;
+	top:239px;
+	margin-left:-175px;
+	left:50%;
+	z-index: 2;
+}
 
+.hidden {
+	display: none;
+}
 
+#form2 {
+	width:350px;
+	background: #f7f7f7;
+	margin:auto;
+}
+
+.name, .email, .message {
+	width:80%;
+}
+
+#message{
+	resize:none;
+	
+}
 
 #nav {
 	position: relative;
@@ -23,31 +50,49 @@ body {
 	width:100%;
 }
 
+#contact {
+	position: absolute;
+	right:190px;
+}
+
 .navLi {
 	float: left;
 	color: #fff;
 }
-.navLi a {
-	color:#fff;
+ a {
+	
 	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 li {
 	list-style:none;
 }
 
-#header h2 {
+#header {
 	background: #7DD;
-	padding-bottom: 25px;
 	position: relative;
+}
+#header h2 {
+
+	
+	padding-bottom: 35px;
+	position: relative;
+	top:20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
 	color:#fff;
 	margin:0;
 }
 
 #info {
-	width:85%;
 	text-align: center;
-	margin-left: 7.5%;
-	margin-right: 7.5%
+	margin-left: 20px;
+	margin-right: 20px;
+	
 }
 #github {
 	position: absolute;
@@ -60,6 +105,10 @@ li {
 #profileImg {
 	width:170px;
 	height:230px;
+	position: relative;
+	top: 20px;
+	display: block;
+	margin:auto;
 	border-radius: 3px;
 	border: 1px solid #333;
 }
@@ -81,13 +130,13 @@ li {
 }
 
 .projectImg {
-	width: 270px;
+	width: 333px;
     height: 250px;
     display: inline-block;
     position: relative;
     margin: auto;
     border: 1px solid #888;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 .etsy {
@@ -140,8 +189,12 @@ li {
 
 }
 
+img {
+	background: #000;
+}
 .projects:hover img {
 	opacity: .3;
+	background: #000;
 }
 
 #master {
@@ -150,9 +203,6 @@ li {
 	margin:auto;
 }
 
-#wrapper {
-	margin:auto;
-}
 
 #test {
 	text-align: center;
