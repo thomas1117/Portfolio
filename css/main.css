@@ -1,7 +1,7 @@
 
 body {
 	position: absolute;
-	top: -25px;
+	padding-top:48px;
 	background:#fdfdfd;
 }
 
@@ -69,19 +69,22 @@ h2 {
 }
 
 #nav {
-	position: relative;
+	position: fixed;
 	top:0;
 	height:48px;
 	background: #333333;
 	color:#fff;
 	width:100%;
+	z-index: 1000;
 }
 
 #contact {
 	position: absolute;
 	right:190px;
 }
-
+#contact:hover {
+	text-decoration: underline;
+}
 .navLi {
 	float: left;
 	color: #fff;
