@@ -25,7 +25,7 @@ body {
 }
 
 @media (max-width: 705px){
-	body #test #about #profileContain {
+	body #wrapper #about #profileContain {
 		width:350px;
 	}
 	body #tech {
@@ -33,16 +33,15 @@ body {
 	}
 	body #profile {
 		position: relative;
-		float: none;
+		float:none;
 		margin:auto;
+		display: inherit;
 	}
 	body #about #description {
 		left:0;
 		margin:auto;
 	}
-	body #about {
-		overflow: visible;
-	}
+	
 }
 #overlay  {
 	background-color: black;
@@ -340,7 +339,7 @@ img {
 
 
 #about {
-	background: #888;
+	background: #333333;
 	margin: auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -361,8 +360,16 @@ img {
 #description {
 	position: relative;
 	text-align: justify;
+	color:#fff;
 	left:5px;
 	width:99%;
+}
+
+.contactInfo {
+	margin:0;
+	position: relative;
+	left:5px;
+	color:#2baadb
 }
 
 .clearfix {
