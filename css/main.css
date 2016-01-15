@@ -13,6 +13,8 @@ body {
 	body #profileContain {
 		width:1060px;
 	}
+
+	
 	
 }
 
@@ -25,6 +27,21 @@ body {
 @media (max-width: 705px){
 	body #test #about #profileContain {
 		width:350px;
+	}
+	body #tech {
+		width: 410px;
+	}
+	body #profile {
+		position: relative;
+		float: none;
+		margin:auto;
+	}
+	body #about #description {
+		left:0;
+		margin:auto;
+	}
+	body #about {
+		overflow: visible;
 	}
 }
 #overlay  {
@@ -187,11 +204,7 @@ li {
 	margin:0;
 }
 
-@media(max-width:700px ){
-	body #tech {
-		width: 410px;
-	}
-}
+
 #tech {
 	width:700px;
 	margin:auto;
@@ -286,6 +299,7 @@ filter: none; /* IE6-9 */
 .description {
 	display: none;
 	position: absolute;
+	overflow: auto;
 	bottom:75px;
 	color:#fff;
 	width: 100%;
@@ -327,15 +341,15 @@ img {
 
 #about {
 	background: #888;
-	height:170px;
-	margin:auto;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 #profile {
 	width: 170px;
 	height: 170px;
-	position:absolute;
-	left:0;
+	float: left;
 }
 
 #profileContain {
@@ -344,3 +358,13 @@ img {
 	margin:auto;
 }
 
+#description {
+	position: relative;
+	text-align: justify;
+	left:5px;
+	width:99%;
+}
+
+.clearfix {
+	overflow: auto;
+}
