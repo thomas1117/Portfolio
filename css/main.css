@@ -161,7 +161,7 @@ li {
 #header h2 {
 
 	padding-top: 20px;
-	padding-bottom: 75px;
+	padding-bottom: 110px;
 	position: relative;
 	top:20px;
 	padding-left: 20px;
@@ -285,6 +285,28 @@ img {
 
 #test {
 	text-align: center;
+}
+
+.clearfix {
+	clear:both;
+}
+@media(max-width:700px ){
+	body #tech {
+		width: 450px;
+	}
+}
+#tech {
+	width:700px;
+	margin:auto;
+}
+
+.tech {
+	float: left;
+	width:100px;
+	background: none;
+	 filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 
 
