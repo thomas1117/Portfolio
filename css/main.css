@@ -23,7 +23,10 @@ body {
 }
 
 #navName {
-	position: relative;
+	position: absolute;
+	top: 0;
+	padding-top: 12px;
+	padding-bottom: 13px;
 	left:10px;
 }
 h2 {
@@ -75,6 +78,7 @@ h2 {
 #nav {
 	position: fixed;
 	top:0;
+	height: 34px;
 	padding-top: 15px;
 	background: #333333;
 	color:#fff;
@@ -151,8 +155,8 @@ li {
 
 #header {
 	background: #7DD;
+	
 	position: relative;
-	margin-bottom: 40px;
 }
 #header h2 {
 
@@ -200,6 +204,7 @@ li {
 #projects {
 	text-align: center;
 	margin:auto;
+	padding-top:40px;
 	padding-bottom: 20px;
 }
 
