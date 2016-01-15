@@ -32,6 +32,7 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div id="overlay" class="hidden"></div>
       <div id='master'>
         <div id="nav">
             <ul>
@@ -48,10 +49,10 @@
           <h2>Contact</h2>
            <form action="//formspree.io/thomasshannon1117@yahoo.com"
                  method="POST">
-               <input class="name" type="text" name="name" placeholder="name">
-               <input class="email" type="email" name="_replyto" placeholder="email">
-               <textarea class="message" type="text" name="description" placeholder="feel free to ask any questions about my projects, rates, or just to chat..."></textarea>
-               <input type="submit" value="Send">
+               <input id="name" type="text" name="name" placeholder="name" required>
+               <input id="email" type="email" name="_replyto" placeholder="email" required>
+               <textarea id="message" type="text" name="description" placeholder="feel free to ask any questions about my projects, rates, or just to chat..." required></textarea>
+               <input id='sendMessage'type="submit" value="Send">
            </form>
            </div>
       
@@ -127,16 +128,7 @@
                 <p class='description'>A classic game remade using javascript with a koonami easter egg added!</p>
             </div>
           </div>
-          <div id='form2'>
-          <h2>Contact</h2>
-           <form action="//formspree.io/thomasshannon1117@yahoo.com"
-                 method="POST">
-               <input class="name" type="text" name="name" placeholder="name">
-               <input class="email" type="email" name="_replyto" placeholder="email">
-               <textarea class="message" type="text" name="description" placeholder="feel free to ask any questions about my projects, rates, or just to chat..."></textarea>
-               <input type="submit" value="Send">
-           </form>
-           </div>
+          
 
     </div>
       </div>

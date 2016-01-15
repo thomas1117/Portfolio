@@ -11,15 +11,29 @@ body {
 	}
 	
 }
+#overlay  {
+	background-color: black;
+	height:100%;
+	width:100%;
+	position: absolute;
+	top:0;
+	opacity: .5;
+	z-index: 2;
+
+}
+
+h2 {
+	text-align: center;
+}
+
+
 
 #form1 {
 	width:350px;
 	background: #f7f7f7;
-	position: absolute;
-	top:239px;
-	margin-left:-175px;
-	left:50%;
-	z-index: 2;
+	position: relative;
+	margin:auto;
+	z-index: 3;
 }
 
 .hidden {
@@ -32,9 +46,20 @@ body {
 	margin:auto;
 }
 
+#name, #email, #message {
+	width:80%;
+	position: relative;
+	left:34px;
+}
+#sendMessage {
+	position: relative;
+	left:34px;
+}
 .name, .email, .message {
 	width:80%;
 }
+
+
 
 #message{
 	resize:none;
