@@ -9,7 +9,23 @@ body {
 	 body .projectImg {
 		width:350px;
 	}
+
+	body #profileContain {
+		width:1060px;
+	}
 	
+}
+
+@media (max-width: 1060px){
+	body #about #profileContain {
+		width:700px;
+	}
+}
+
+@media (max-width: 705px){
+	body #test #about #profileContain {
+		width:350px;
+	}
 }
 #overlay  {
 	background-color: black;
@@ -171,6 +187,33 @@ li {
 	margin:0;
 }
 
+@media(max-width:700px ){
+	body #tech {
+		width: 410px;
+	}
+}
+#tech {
+	width:700px;
+	margin:auto;
+}
+
+.tech {
+	float: left;
+	width:100px;
+	background: none;
+	 filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+.tech:hover {
+
+filter: none; /* IE6-9 */
+  filter: none; /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: none; /* Google Chrome, Safari 6+ & Opera 15+ */
+  transform:scale(1.2);
+}
+
 #info {
 	text-align: justify;
 	margin-left: 20px;
@@ -178,17 +221,6 @@ li {
 	
 }
 
-
-#profileImg {
-	width:170px;
-	height:230px;
-	position: relative;
-	top: 20px;
-	display: block;
-	margin:auto;
-	border-radius: 3px;
-	border: 1px solid #333;
-}
 .container {
 	width:100%;
 }
@@ -240,7 +272,7 @@ li {
 }
 
 .projects {
-	margin-right:13px;
+	/*margin-right:13px;*/
 	margin-bottom: 55px;
 	height:250px;
 	display: inline-block;
@@ -284,29 +316,31 @@ img {
 
 
 #test {
+	position: relative;
 	text-align: center;
 }
 
 .clearfix {
 	clear:both;
 }
-@media(max-width:700px ){
-	body #tech {
-		width: 450px;
-	}
-}
-#tech {
-	width:700px;
+
+
+#about {
+	background: #888;
+	height:170px;
 	margin:auto;
 }
 
-.tech {
-	float: left;
-	width:100px;
-	background: none;
-	 filter: gray; /* IE6-9 */
-  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
-  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+#profile {
+	width: 170px;
+	height: 170px;
+	position:absolute;
+	left:0;
 }
 
+#profileContain {
+	width:1355px;
+	position: relative;
+	margin:auto;
+}
 
