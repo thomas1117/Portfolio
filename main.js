@@ -22,7 +22,7 @@ $(document).ready(function() {
 	      	name: $('#name').val(),
 	      	email:$('#email').val(),
 	      	message: $('#message').val()},
-	      dataType: 'json'
+	      	dataType: 'json'
 	  });
 	  
 	});
