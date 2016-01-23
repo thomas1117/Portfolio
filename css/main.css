@@ -42,6 +42,11 @@ body {
 	}
 	
 }
+@media (max-width: 420px){
+	body #linkContain {
+		right:0px;
+	}
+}
 #overlay  {
 	background-color: black;
 	height:100%;
@@ -63,7 +68,7 @@ body {
 }
 #linkContain {
 	position: absolute;
-	right: 0;
+	right: 35px;
 	top:0;
 	margin:0;
 }
@@ -126,9 +131,7 @@ h2 {
 
 #contact {
 		position: relative;
-	    padding-left: 12px;
-	    padding-right: 12px;
-	    top: 0px;
+	    top: 2px;
 	    padding-top: 12px;
 	    padding-bottom: 13px;
 	    border-right: 1px solid #000;
@@ -141,9 +144,7 @@ h2 {
 }
 #github {
 	position: relative;
-	padding-left: 12px;
-	padding-right: 12px;
-	top: 0px;
+	top: 2px;
 	padding-top: 12px;
 	padding-bottom: 13px;
 	border-right: 1px solid #000;
@@ -158,9 +159,8 @@ h2 {
 }
 #linkedIn {
 	position: relative;
-	padding-left: 12px;
-	padding-right: 12px;
-	top: 0px;
+	
+	top: 2px;
 	padding-top: 12px;
 	padding-bottom: 13px;
 }
@@ -176,6 +176,8 @@ h2 {
 .navLi {
 	float: left;
 	color: #fff;
+	padding-left: 12px;
+	padding-right: 12px;
 }
  a {
 	text-decoration: none;
