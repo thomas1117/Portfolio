@@ -1,7 +1,7 @@
 body {
 	position: absolute;
 	padding-top:48px;
-	background:#fdfdfd;
+	background:#f7f7f7;
 }
 
 @media  (max-width: 1355px) {
@@ -55,10 +55,17 @@ body {
 
 #navName {
 	position: absolute;
-	top: 0;
+	top: -4px;
 	padding-top: 12px;
 	padding-bottom: 13px;
-	left:10px;
+	left: 10px;
+	font-size: 20px;
+}
+#linkContain {
+	position: absolute;
+	right: 0;
+	top:0;
+	margin:0;
 }
 h2 {
 	text-align: center;
@@ -118,8 +125,7 @@ h2 {
 }
 
 #contact {
-	position: absolute;
-	    right: 190px;
+		position: relative;
 	    padding-left: 12px;
 	    padding-right: 12px;
 	    top: 0px;
@@ -134,8 +140,7 @@ h2 {
 	color:#fff;
 }
 #github {
-	position: absolute;
-	right: 120px;
+	position: relative;
 	padding-left: 12px;
 	padding-right: 12px;
 	top: 0px;
@@ -152,8 +157,7 @@ h2 {
 	color:#fff;
 }
 #linkedIn {
-	position: absolute;
-	right: 40px;
+	position: relative;
 	padding-left: 12px;
 	padding-right: 12px;
 	top: 0px;
@@ -194,7 +198,7 @@ li {
 	padding-top: 20px;
 	padding-bottom: 110px;
 	position: relative;
-	top:20px;
+	top:42px;
 	padding-left: 20px;
 	padding-right: 20px;
 	text-align: center;
@@ -206,8 +210,14 @@ li {
 #tech {
 	width:700px;
 	margin:auto;
-}
+	padding-bottom: 375px;
 
+}
+#techHeader {
+	position: relative;
+	padding-bottom: 100px;
+	top:80px;
+}
 .tech {
 	float: left;
 	width:100px;
@@ -215,6 +225,11 @@ li {
 	 filter: gray; /* IE6-9 */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+#techUl {
+	position: relative;
+	top:50px;
 }
 
 .tech:hover {
@@ -246,7 +261,8 @@ filter: none; /* IE6-9 */
 	text-align: center;
 	margin:auto;
 	padding-top:40px;
-	padding-bottom: 20px;
+	padding-bottom: 100px;
+	color: #f7f7f7
 }
 
 .projectImg {
@@ -328,6 +344,7 @@ img {
 #test {
 	position: relative;
 	text-align: center;
+	background: #7cc;
 }
 
 .clearfix {
