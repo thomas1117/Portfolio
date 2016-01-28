@@ -84,8 +84,10 @@ h2 {
 	    position: absolute;
 	    left: -50%;
 	    left: 50%;
+	    top:50%;
 	    margin-left: -175px;
 	    z-index: 3;
+	    
 }
 
 .hidden {
@@ -192,7 +194,6 @@ li {
 
 #header {
 	background: #7DD;
-	
 	position: relative;
 }
 #header h2 {
