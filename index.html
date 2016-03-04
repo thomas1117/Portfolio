@@ -23,34 +23,37 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
-</head>
-<body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <div id="overlay" class="hidden"></div>
+
       <div id='master'>
+
         <div id="nav">
-            <ul>
+            <ul id="total">
+
               <li id='navName'>Thomas Shannon</li>
               <li>
                 <ul id='linkContain'>
-                  <li id='contact'class='navLi'>Contact</li>
-                  <li id='github'class='navLi'><a href='https://github.com/thomas1117' target="_blank">GitHub</a></li>
-                  <li id='linkedIn'class='navLi'><a href='https://www.linkedin.com/profile/view?id=AAIAABg0iRcBcgx8qod7csm_oi5rZlR1wvPR4Ig&trk=nav_responsive_tab_profile' target="_blank">LinkedIn</a></li>
+
+                  <li id='contact'class='navLi'><a>Contact</a></li>
+                  <li id='github'class='navLi'>
+                    <a href='https://github.com/thomas1117' target="_blank">GitHub</a>
+                  </li>
+                  <li id='linkedIn'class='navLi'>
+                  <a href='https://www.linkedin.com/profile/view?id=AAIAABg0iRcBcgx8qod7csm_oi5rZlR1wvPR4Ig&trk=nav_responsive_tab_profile' target="_blank">LinkedIn</a>
+                  </li>
+
                 </ul>
+
               </li>
               
             </ul>
         </div>
+
         <div id="header">
-        <h2>Front end engineer with a passion for solving problems and making snappy headers.</h2>
+          <h2>Front end engineer with a passion for solving problems and making snappy headers.</h2>
       </div>
-      <div class="helper">
+
+      
       <div id='form1' class="hidden">
           <h2>Contact</h2>
            <form action="//formspree.io/thomasshannon1117@yahoo.com"
@@ -61,7 +64,7 @@
                <input id='sendMessage'type="submit" value="Send">
            </form>
            </div>
-      </div>
+      
        <div id='wrapper'>
        
          <div class="twelve columns">
@@ -82,7 +85,7 @@
           
           
           <div id='test'>
-          <h2 id='projects'>Projects</h2>
+            <h2 id='projects'>Projects</h2>
           <div id='projectContainer'>
 
               <div class='projects'>
@@ -107,6 +110,20 @@
                   <p class='description'>An elegant restaurant site made using Mustache and pulling from a heroku api.</p>
               </div>
             
+              
+              <div class='projects'>
+               <a href='http://skinnytiethomas.surge.sh'>
+              <img class='projectImg'src="images/skinnytie.png">
+              </a>
+                <p class='description'>A clone of the skinny tie website.</p>
+            </div>
+
+             <div class='projects'>
+                <a href='http://simongamethomas.surge.sh'>
+              <img class='projectImg'src="images/simon.png">
+              </a>
+                <p class='description'>A classic game remade using javascript with a koonami easter egg added!</p>
+            </div>
 
               <div class='projects'>
                 <a href='http://addressthomas.surge.sh/'>
@@ -115,33 +132,10 @@
                   <p class='description'>A simple address book app made using Backbone for routing.</p>
               </div>
            
-             <div class='projects'>
-               <a href='http://calcyoulater.surge.sh/'>
-              <img class='projectImg'src="images/calculator.png">
-              </a>
-                <p class='description'>A simple calculator made with JQuery.</p>
-            </div>
              
-              <div class='projects'>
-                <a href='http://creepyclock.surge.sh/'>
-                  <img class='projectImg'src="images/clock.png">
-                 </a>
-                <p class='description'>A clock made using vanilla javascript.</p>
-            </div>
              
-               <div class='projects'>
-                 <a href='http://accordiancss.surge.sh'>
-                  <img class='projectImg'src="images/accordian.png">
-                  </a>
-                    <p class='description'>An accordian menu using pure css.</p>
-                </div>
-
-              <div class='projects'>
-                <a href='http://simongamethomas.surge.sh'>
-              <img class='projectImg'src="images/simon.png">
-              </a>
-                <p class='description'>A classic game remade using javascript with a koonami easter egg added!</p>
-            </div>
+              
+             
 
 
           </div>
@@ -152,7 +146,7 @@
               <img id='profile'src="images/profile.jpg" />
               <p id='description' class='contactInfo'>Thomas Shannon is a front end engineer who builds cool webapps and loves solving puzzles. He plays a mean game of ping pong and would love to hear about your creative project!</p>
               <ul>
-                <li class='contactInfo'>702-347-0469</li>
+                <li class='contactInfo'><a href="tel://1-702-347-0469">702-347-0469</a></li>
                 <li class='contactInfo'><a href="mailto:thomasshannon1117@yahoo.com" target="_blank">thomasshannon1117@yahoo.com</li>
                 <li class='contactInfo'><a href='https://github.com/thomas1117'target="_blank">GitHub</a></li>
               </ul>

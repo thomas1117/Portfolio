@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('#contact').on('click', function(){
 		$('#form1').toggleClass('hidden');
-		$("#overlay").removeClass("hidden");
+		$("#overlay").toggleClass("hidden");
 	});
 
 	$("#overlay").on('click', function(e){
