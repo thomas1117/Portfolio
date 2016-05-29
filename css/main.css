@@ -115,10 +115,39 @@ h2 {
 
 .animate {
 
-	    animation: 1s bounced-word infinite, 3s  infinite;
+	    animation: 3s bounced-word;
 	  
 }
 
+@keyframes bounced-word {
+  8% {
+    transform:translate3d(0,45px,0) scaleY(0.8);
+    transform-origin:left bottom 0;
+  }
+  25% {
+    transform:translate3d(0,45px,0) scaleY(1);
+  }
+  40% {
+    transform:translate3d(0,0,0) scaleY(0.6);
+    transform-origin:left bottom 0;
+  }
+  50% {
+    transform:translate3d(0,0,0) scaleY(1.2);
+    transform-origin:left bottom 0;
+  }
+  60% {
+    transform:translate3d(0,0,0) scaleY(1);
+    transform-origin:left bottom 0;
+  }
+  80% {
+
+    transform:translate3d(0,0,0);
+  }
+  100% {
+
+    transform:translate3d(0,0,0);
+  }
+}
 
 #message{
 	resize:none;
