@@ -113,6 +113,11 @@ h2 {
 	width:80%;
 }
 
+.animate {
+
+	    animation: 1s bounced-word infinite, 3s  infinite;
+	  
+}
 
 
 #message{
@@ -191,9 +196,19 @@ li {
 
 
 #tech {
+
 	width:700px;
 	margin:auto;
 	padding-bottom: 375px;
+
+}
+
+#techHeader {
+	position: relative;
+    padding-bottom: 100px;
+    top: 70px;
+}
+
 
 }
 #techHeader {
@@ -246,6 +261,7 @@ filter: none; /* IE6-9 */
 	padding-top:40px;
 	padding-bottom: 100px;
 	color: #f7f7f7
+
 }
 
 .projectImg {
@@ -326,9 +342,11 @@ img {
 
 
 #test {
-	position: relative;
-	text-align: center;
-	background: #7cc;
+
+		position: relative;
+	    text-align: center;
+	    background: #7cc;
+
 }
 
 .clearfix {
@@ -338,9 +356,10 @@ img {
 
 #about {
 	background: #333333;
-	margin: auto;
-	padding-top: 120px;
-	padding-bottom: 120px;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
 
 #profile {
@@ -350,9 +369,9 @@ img {
 }
 
 #profileContain {
-	width:1355px;
+	width: 1355px;
 	position: relative;
-	margin:auto;
+	margin: auto;
 }
 
 #description {
@@ -370,6 +389,4 @@ img {
 	color:#2baadb
 }
 
-.clearfix {
-	overflow: auto;
-}
+
