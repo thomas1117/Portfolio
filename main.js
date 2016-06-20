@@ -15,16 +15,24 @@ $(document).ready(function() {
 		e.preventDefault();
 		$("#overlay").toggleClass("hidden");
 		$('#form1').toggleClass('hidden');
-	  $.ajax({
+	  	
+	  	$.ajax({
 	      url: '//formspree.io/thomasshannon1117@yahoo.com', 
 	      method: 'POST',
 	      data: {
 	      	name: $('#name').val(),
 	      	email:$('#email').val(),
-	      	message: $('#message').val()},
-	      	dataType: 'json'
-	  });
-	  
+	      	message: $('#message').val()
+	      },
+	      dataType: 'json',
+	  	});
+		
+
+		$('#name').val('')
+		$('#email').val('')
+		$('#message').val('') 
+	
 	});
+
 });
 
