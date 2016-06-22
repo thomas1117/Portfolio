@@ -8,101 +8,106 @@
   <meta name="author" content="">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+<!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+
   <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
 
+  <body>
       <div id="overlay" class="hidden"></div>
-
+      
       <div id='master'>
 
-        <div id="nav">
-            <ul id="total">
-              <li id='navName'>Thomas Shannon</li>
-              <li>
-                <ul id='linkContain'>
-
-                  <li id='contact'class='navLi'><a>Contact</a></li>
-
-                  <li id='github'class='navLi'>
-
-                    <a href='https://github.com/thomas1117' target="_blank">GitHub</a>
-
-                  </li>
-
-                  <li id='linkedIn'class='navLi'>
-
-                    <a href='https://www.linkedin.com/profile/view?id=AAIAABg0iRcBcgx8qod7csm_oi5rZlR1wvPR4Ig&trk=nav_responsive_tab_profile' target="_blank">LinkedIn</a>
-
-                  </li>
-
-                </ul>
-
-              </li>
-              
+        <div class="nav">
+            <ul>
+              <li>Thomas Shannon</li>
             </ul>
+
+            <ul class='link-contain'>
+                  
+                  <li id='contact'><a>Contact</a></li>
+                  
+                  <li>
+                    <a href='https://github.com/thomas1117' target="_blank">GitHub</a>
+                  </li>
+
+                  <li>
+                    <a href='https://www.linkedin.com/profile/view?id=AAIAABg0iRcBcgx8qod7csm_oi5rZlR1wvPR4Ig&trk=nav_responsive_tab_profile' 
+                    target="_blank">LinkedIn
+                    </a>
+                  </li>
+
+              </ul>
         </div>
 
-        <div id="header">
-
-          <h2 class='animate bounced-word'>
-            Front end engineer with a passion for solving problems and making snappy headers.
-          </h2>
-
+        <div class="header">
+          <h2 class='animate bounced-word'>Front end engineer with a passion for solving problems and making snappy headers.</h2>
         </div>
 
       
-      <div id='form1' class="hidden">
+      <div id='form' class="hidden">
+          
           <h2>Contact</h2>
 
            <form action="//formspree.io/thomasshannon1117@yahoo.com" method="POST">
 
-               <input id="name" type="text" name="name" placeholder="name" required>
-               <input id="email" type="email" name="_replyto" placeholder="email" required>
-               <textarea id="message" type="text" name="description" placeholder="feel free to ask any questions about my projects, rates, or just to chat..." required></textarea>
-               <input id='sendMessage'type="submit" value="Send">
+           <div class='input-contain'>
+
+               <input class="form-input" id="name" type="text" name="name" placeholder="name" required>
+
+               <input class="form-input" id="email" type="email" name="_replyto" placeholder="email" required>
+
+               <textarea class="form-input" id="message" type="text" name="description" placeholder="feel free to ask any questions about my projects, rates, or just to chat..." required></textarea>
+
+               <input id='sendMessage' class='btn btn-primary pull-right' type="submit" value="Send">
+
+            </div>
 
            </form>
 
       </div>
       
-       <div id='wrapper'> 
+       
          
-         <div id="tech">
+         <div class="tech-contain">
 
-          <h2 id='techHeader'>Technologies</h2>
+          <h2 class='tech-header'>Technologies</h2>
+          
+          <div class='image-container-master'>
+          <img id='tree-img' src='images/tree.png'/>
 
-          <ul id="techUl">
-
-            <li><img src='images/html5.png'class='tech'/></li>
-            <li><img src='images/css3.png'class='tech'/></li>
-            <li><img src='images/javascript.png'class='tech'/></li>
-            <li><img src='images/jquery.gif'class='tech'/></li>
-            <li><img src='images/mustache.gif'class='tech'/></li>
-            <li><img src='images/backbone.png'class='tech'/></li>
-            <li><img src='images/react.svg'class='tech'/></li>
-
-          </ul>
+      
+  
+            <img src='images/html5.png'class='tech img-1'/>
+            <img src='images/css3.png'class=' tech img-2'/>
+            <img src='images/javascript.png'class='tech img-3'/>
+            <img src='images/jquery.gif'class='tech img-4'/>
+            <img src='images/mustache.gif'class='tech img-5'/>
+            <img src='images/backbone.png'class='tech img-6'/>
+            <img src='images/webpack.png'class='tech img-8'/>
+            <img src='images/react.svg'class='tech img-7'/>
+          </div>
+    
 
         </div>
 
-        <div class="clearfix"></div>
           
-          
-        <div id='test'>
+        <div id='contain-center'>
 
           <h2 id='projects'>Projects</h2>
 
-          <div id='projectContainer'>
+          <div class='project-contain-center'>
 
 
             <a href='http://sales-modal.surge.sh/'>
 
               <div class='projects'>
-                <img class='projectImg'src="images/sales-modal.png">
-                <p class='description'>A sales order modal and contact form with validation.</p>
+                <img src="images/sales-modal.png">
+                <span class='description'>A sales order modal and contact form with validation.</span>
               </div>
 
             </a> 
@@ -110,37 +115,37 @@
             <a href='http://etsythomas.surge.sh/'>
               
               <div class='projects'>
-                <img class='projectImg'src="images/etsy.png">
-                <p class='description'>Here is a recreation of Etsys layout, pulling data from Etsy's Api.</p>
+                <img src="images/etsy.png">
+                <span class='description'>Here is a recreation of Etsys layout, pulling data from Etsy's Api.</span>
               </div>
 
             </a>
 
             <a href='http://jto-restaurant.surge.sh/'>
               <div class='projects'>
-                <img class='projectImg'src="images/restaurant.png">
-                <p class='description'>An elegant restaurant site made using Mustache and pulling from a heroku api.</p>
+                <img src="images/restaurant.png">
+                <span class='description'>An elegant restaurant site made using Mustache and pulling from a heroku api.</span>
               </div>
             </a>
 
             <a href='http://skinnytiethomas.surge.sh'>
               <div class='projects'>
-                <img class='projectImg'src="images/skinnytie.png">
-                <p class='description'>A clone of the skinny tie website.</p>
+                <img src="images/skinnytie.png">
+                <span class='description'>A clone of the skinny tie website.</span>
               </div>
             </a>
 
             <a href='http://simongame.surge.sh'>
               <div class='projects'>
-                <img class='projectImg'src="images/simon.png">
-                <p class='description'>A classic game remade using javascript with a koonami easter egg added!</p>
+                <img src="images/simon.png">
+                <span class='description'>A classic game remade using javascript with a koonami easter egg added!</span>
               </div>
             </a>
 
             <a href='http://addressthomas.surge.sh/'>
               <div class='projects'>
-                <img class='projectImg'src="images/contact.png">
-                <p class='description'>A simple address book app made using Backbone for routing.</p>
+                <img src="images/contact.png">
+                <span class='description'>A simple address book app made using Backbone for routing.</span>
               </div>
             </a>
 
@@ -150,31 +155,41 @@
 
         <div id="about">
           
-          <div id="profileContain">
-            <img id='profile'src="images/profile.jpg" />
-            <p id='description' class='contactInfo'>Thomas Shannon is a front end engineer who builds cool webapps and loves solving puzzles. He plays a mean game of ping pong and would love to hear about your creative project!</p>
-            
-            <ul>
+          <footer>
+          
+            <div id="profileContain">
+              <div>
+                <img id='profile'src="images/profile.jpg" />
+                <h4 class ='bio-header'>A very brief bio:</h4>
+                <p id='description' class='contactInfo'>Thomas Shannon is a front end engineer who builds cool webapps and loves solving puzzles. He plays a mean game of ping pong and would love to hear about your creative project!</p>
+              </div>
+              <div>
+                <ul>
 
-              <li class='contactInfo'>
-                <a href="tel://1-702-347-0469">702-347-0469</a>
-              </li>
+                  <li class='contactInfo'>
+                    <a href="tel://1-702-347-0469">702-347-0469</a>
+                  </li>
 
-              <li class='contactInfo'>
-                <a href="mailto:thomasshannon1117@yahoo.com" target="_blank">thomasshannon1117@yahoo.com</a></li>
+                  <li class='contactInfo'>
+                    <a href="mailto:thomasshannon1117@yahoo.com" target="_blank">thomasshannon1117@yahoo.com</a></li>
 
-              <li class='contactInfo'>
-                <a href='https://github.com/thomas1117'target="_blank">GitHub</a>
-              </li>
+                  <li class='contactInfo'>
+                    <a href='https://github.com/thomas1117'target="_blank">GitHub</a>
+                  </li>
 
-            </ul>
+                </ul>
+              </div>
+            </div>
 
-          </div>
+            <canvas id="gameCanvas"></canvas>
+
+          </footer>
 
       </div>
   
 
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-           <script type="text/javascript" src="main.js"></script>
-       </body>
-       </html>
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src='pingpong.js'></script>
+  </body>
+</html>

@@ -1,20 +1,20 @@
 $(document).ready(function() {
 	$('#contact').on('click', function(){
-		$('#form1').toggleClass('hidden');
+		$('#form').toggleClass('hidden');
 		$("#overlay").toggleClass("hidden");
 	});
 
 	$("#overlay").on('click', function(e){
 		if ($(e.target).is('#overlay')){
 			$("#overlay").toggleClass("hidden");
-			$('#form1').toggleClass('hidden');
+			$('#form').toggleClass('hidden');
 		}
 	})
 
-	$("#form1").on("submit", function(e) {
+	$("#form").on("submit", function(e) {
 		e.preventDefault();
 		$("#overlay").toggleClass("hidden");
-		$('#form1').toggleClass('hidden');
+		$('#form').toggleClass('hidden');
 	  	
 	  	$.ajax({
 	      url: '//formspree.io/thomasshannon1117@yahoo.com', 
@@ -31,11 +31,12 @@ $(document).ready(function() {
 		$('#name').val('')
 		$('#email').val('')
 		$('#message').val('') 
-	
-	});
 
+
+
+	});
 });
 
 
 
-$('#tfd-home')
+
