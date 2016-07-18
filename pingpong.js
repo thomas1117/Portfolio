@@ -5,6 +5,7 @@ var ballY = 10;
 var ballSpeedX = 5;
 var ballSpeedY = 4;
 
+
 var paddle1Y = 250;
 var paddle2Y = 250;
 
