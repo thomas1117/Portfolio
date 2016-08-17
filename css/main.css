@@ -145,6 +145,7 @@ textarea {
 #contain-center {
 	position: relative;
 	top:110px;
+	background: #481863;
 }
 
 #overlay  {
@@ -173,7 +174,7 @@ textarea {
 #form {
 	width: 545px;
     background: #000;
-    color:#fff;
+    color:#f9f9f9;
     position: fixed;
     left: 50%;
     top: 50%;
@@ -295,7 +296,6 @@ hr {
 	color: #f9f9f9;
 	margin:-25px 0 0 -25px;
 	display: inline-block;
-
 	background-color: #481863;
     position: relative;
 }
@@ -311,6 +311,7 @@ hr {
 	overflow:hidden;
 	box-sizing: border-box;
 	background: #000;
+	margin:0px 15px 35px 15px;
 }
 
 .projects:hover img {
@@ -337,6 +338,7 @@ hr {
 
 }
 
+
 .description {
 	position: absolute;
 	top:20px;
@@ -349,51 +351,3 @@ hr {
 .projects:hover .description {
 	display: block;
 }
-
-#profile {
-	width: 170px;
-	height: 170px;
-	float: left;
-}
-
-
-
-#about {
-	background: #333333;
-    margin: auto;
-   
-
-}
-
-
-
-#profileContain {
-	width: 100%;
-	bottom: 0;
-	position: absolute;
-	padding-bottom: 86px;
-	background: #fff;
-	display: inline-block;
-}
-
-
-.contactInfo {
-	position: relative;
-	width: 96%;
-	left: 15px;
-	
-}
-
-
-.bio-header {
-	position: relative;
-	left: 15px;
-}
-
-footer {
-	width:1400px;
-	margin:auto;
-	position: relative;
-	padding-top: 60px;
-}
-
