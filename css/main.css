@@ -99,7 +99,8 @@ textarea {
 	box-shadow: 0px 0px 20px #000;
 	padding-bottom: 15px;
 	transition: background-color 1.4s ease;
-  	background-color: #D01313;
+  	/*background-color: #D01313;*/
+  	background-color: #74118D;
   	cursor: pointer;
 }
 .nav li:hover a {
