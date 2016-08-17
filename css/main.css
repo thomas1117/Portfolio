@@ -286,12 +286,12 @@ hr {
 	margin:-25px 0 0 -25px;
 	display: inline-block;
 
-	background-color: #582A72;
+	background-color: #481863;
     position: relative;
 }
 
 .project-master {
-	background: #582A72;
+	background: #481863;
 	height:100%;
 	padding:1px;
 }
@@ -313,12 +313,12 @@ hr {
 
 
 .project-contain-center img {
-		width:356px;
-	    height: 250px;
-	    display: inline-block;
-	    position: relative;
-	    margin: auto;
-	    transition: 0.7s;	
+	width:356px;
+    height: 250px;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    transition: 0.7s;	
 }
 
 .project-contain-center {
