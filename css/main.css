@@ -72,10 +72,11 @@ textarea {
 .nav {
 	position: fixed;
     background: #333333;
-    color: #fff;
+    color: #f9f9f9;
     width: 100%;
     z-index: 777;
     margin-bottom: 50px;
+    border-bottom: 1px solid #676767;
 
 }
 
@@ -102,7 +103,7 @@ textarea {
   	cursor: pointer;
 }
 .nav li:hover a {
-	color: #fff;
+	color: #f9f9f9;
 }
 
 
@@ -126,7 +127,7 @@ textarea {
 	position: relative;
 	padding-left: 20px;
 	padding-right: 20px;
-	color: #fff;
+	color: #f9f9f9;
 	position: absolute;
   	top: 50%;
   	left:0;
@@ -268,7 +269,7 @@ hr {
 	border:none;
 	height: 2px;
 	color:#fff;
-	background-color: #fff;
+	background-color: #f9f9f9;
 
 }
 .header-contain {
@@ -282,7 +283,7 @@ hr {
 	
 	top:12px;
 	font-size: 60px;
-	color:#fff;
+	color: #f9f9f9;
 	margin:-25px 0 0 -25px;
 	display: inline-block;
 
