@@ -303,7 +303,7 @@ hr {
 .project-master {
 	background: #481863;
 	height:100%;
-	padding:1px;
+	padding-top:1px;
 }
 .projects {
 	display: inline-flex;
