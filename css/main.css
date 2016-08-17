@@ -74,7 +74,7 @@ textarea {
     background: #333333;
     color: #fff;
     width: 100%;
-    z-index: 1000;
+    z-index: 777;
     margin-bottom: 50px;
 
 }
@@ -138,7 +138,7 @@ textarea {
 	
 }
 
-.animate {
+/*.animate {
 	animation: 3s bounced-word;	  
 }
 
@@ -168,7 +168,7 @@ textarea {
   100% {
     transform:translate3d(0,0,0);
   }
-}
+}*/
 
 #contain-center {
 	position: relative;
@@ -179,25 +179,37 @@ textarea {
 	background-color: black;
 	height:100%;
 	width:100%;
-	position: absolute;
+	position: fixed;
 	top:0;
+	bottom:0;
+	left:0;
+	right:0;
 	opacity: .6;
 	z-index: 2;
 }
 
+@media (max-width: 380px) {
+	body #form {
+		width:360px!important;	
+	}
 
+	#form h2 {
+		font-size: 2rem;
+	}
+}
 
 #form {
 	width: 545px;
-    background: #333333;
+    background: #000;
     color:#fff;
     position: fixed;
-
     left: 50%;
-    top: 29%;
-    margin-left: -272px;
-    z-index: 3;
-    padding-bottom: 15px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    z-index: 993;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .hidden {
@@ -212,12 +224,14 @@ textarea {
 	width:100%;
 	box-sizing: border-box;
 	border-radius:2px;
-	border:1px solid #f7f7f7;
-	padding-top:14px;
-	padding-top:14px;
+	border:1px solid #979797;
+	background-color: #000;
+	padding-top:11px;
+	padding-bottom:11px;
 	padding-left:15px;
+	padding-right:10px;
 	margin-bottom: 15px;
-	color:#333;
+	color:#fff;
 }
 
 #sendMessage {
@@ -225,9 +239,13 @@ textarea {
 	float: right;
 	display: block;
 	border-radius: 3px;
-	background-color: #8aacb8;
-	border:none;
+	background-color: #000;
+	border:1px solid #979797;
 	padding: 10px;
+}
+
+#sendMessage:hover {
+	background-color:purple;
 }
 
 .tech-contain {
@@ -274,11 +292,39 @@ textarea {
 	color: #f7f7f7
 }
 
-.projects {
+hr {
+	position: relative;
+	top:36px;
+	border:none;
+	height: 2px;
+	color:#333;
+	background-color: #333;
+
+}
+.header-contain {
+	text-align: center;
+	width:50%;
+	margin:auto;
+	top:50px;
+	position: relative;
+}
+.projects-header {
+	
+	top:12px;
+	font-size: 60px;
+	color:#333;
+	margin:-25px 0 0 -25px;
 	display: inline-block;
+
+	background-color: #f7f7f7;
+    position: relative;
+}
+.projects {
+	display: inline-flex;
 	position: relative;
 	overflow:hidden;
 	box-sizing: border-box;
+	background: #000;
 }
 
 .projects:hover img {
