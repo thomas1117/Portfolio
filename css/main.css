@@ -204,7 +204,15 @@ textarea {
 	padding-right:10px;
 	margin-bottom: 15px;
 	color:#fff;
+	outline: none;
+
 }
+
+.form-input:focus {
+	border-color:#CA44EB;
+
+}
+
 
 #sendMessage {
 	position: relative;
@@ -217,7 +225,7 @@ textarea {
 }
 
 #sendMessage:hover {
-	background-color:purple;
+	background-color:#CA44EB;
 }
 
 .tech-contain {
