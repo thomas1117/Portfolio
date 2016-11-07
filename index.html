@@ -1,177 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-  <meta charset="utf-8">
-  <title>Dev By Thomas</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
-  
-  
-  <link rel="stylesheet" href="css/normalize.css">
-
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
-
-  <body>
+   <head>
+      <meta charset="utf-8">
+      <title>Dev By Thomas</title>
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+      <!--320-->
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+   </head>
+   <body>
       <div id="overlay" class="hidden"></div>
-      
       <div id='master'>
-
         <div class="nav">
-            <ul>
+           <ul>
               <li class='name'>Thomas Shannon</li>
-            </ul>
-
-            <ul class='link-contain'>
-                  
-                  <li id='contact'><a>Contact</a></li>
-                  
-                  <li>
-                    <a href='https://github.com/thomas1117' target="_blank">GitHub</a>
-                  </li>
-
-                  <li>
-                    <a href='https://www.linkedin.com/profile/view?id=AAIAABg0iRcBcgx8qod7csm_oi5rZlR1wvPR4Ig&trk=nav_responsive_tab_profile' 
+           </ul>
+           <ul class='link-contain'>
+              <li id='contact'><a>Contact</a></li>
+              <li>
+                 <a href='https://github.com/thomas1117' target="_blank">GitHub</a>
+              </li>
+              <li>
+                 <a href='https://www.linkedin.com/profile/view?id=AAIAABg0iRcBcgx8qod7csm_oi5rZlR1wvPR4Ig&trk=nav_responsive_tab_profile' 
                     target="_blank">LinkedIn
-                    </a>
-                  </li>
-
-              </ul>
+                 </a>
+              </li>
+           </ul>
         </div>
+
+        <div id="content">
 
         <div class="header">
-          <h2>Front end engineer with a passion for solving problems and making snappy headers.</h2>
-
-            
+           <h2>Front end engineer with a passion for solving problems and making snappy headers.</h2>
         </div>
-        <div class="project-master">
-        <div class='header-contain'>
-          
-          <hr/>
-        
-          <h2 class='projects-header'>Projects</h2>
-        </div>
-        <div id='contain-center'>
 
-          
+      <div id="projects" class="project-master">
+         <div class='project-contain-center'>
+            <div id="project-content"></div>
+         </div>
+         <div id='form' class="hidden">
+            <h2>Let me get to know you.</h2>
+            <form action="//formspree.io/thomasshannon1117@yahoo.com" method="POST">
+               <div class='input-contain'>
+                  <input class="form-input" id="email" type="email" name="_replyto" placeholder="email" required>
+                  <textarea class="form-input" id="message" type="text" name="description" placeholder="feel free to ask any questions about my projects, rates, or just to chat..." required></textarea>
+                  <input id='sendMessage' class='btn btn-primary pull-right' type="submit" value="Send">
+               </div>
+            </form>
+         </div>
+
+         </div>
+         <!--         <div id="about">
+            <footer>
             
-            <div class='project-contain-center'>
-
-
-              <a href='http://sales-modal.surge.sh/'>
-
-                <div class='projects'>
-                  <img src="images/sales-modal.png">
-                  <span class='description'>A sales order modal and contact form with validation.</span>
+              <div id="profileContain">
+                <div>
+                  <img id='profile'src="images/profile.jpg" />
+                  <h4 class ='bio-header'>A very brief bio:</h4>
+                  <p id='description' class='contactInfo'>Thomas Shannon is a front end engineer who builds cool webapps and loves solving puzzles. He plays a mean game of ping pong and would love to hear about your creative project!</p>
                 </div>
-
-              </a> 
-
-              <a href='http://etsythomas.surge.sh/'>
-                
-                <div class='projects'>
-                  <img src="images/etsy.png">
-                  <span class='description'>Here is a recreation of Etsys layout, pulling data from Etsy's Api.</span>
+                <div>
+                  <ul>
+            
+                    <li class='contactInfo'>
+                      <a href="tel://1-702-347-0469">702-347-0469</a>
+                    </li>
+            
+                    <li class='contactInfo'>
+                      <a href="mailto:thomasshannon1117@yahoo.com" target="_blank">thomasshannon1117@yahoo.com</a></li>
+            
+                    <li class='contactInfo'>
+                      <a href='https://github.com/thomas1117'target="_blank">GitHub</a>
+                    </li>
+            
+                  </ul>
                 </div>
-
-              </a>
-
-              <a href='http://jto-restaurant.surge.sh/'>
-                <div class='projects'>
-                  <img src="images/restaurant.png">
-                  <span class='description'>An elegant restaurant site made using Mustache and pulling from a heroku api.</span>
-                </div>
-              </a>
-
-              <a href='http://skinnytiethomas.surge.sh'>
-                <div class='projects'>
-                  <img src="images/skinnytie.png">
-                  <span class='description'>A clone of the skinny tie website.</span>
-                </div>
-              </a>
-
-              <a href='http://simongame.surge.sh'>
-                <div class='projects'>
-                  <img src="images/simon.png">
-                  <span class='description'>A classic game remade using javascript with a koonami easter egg added!</span>
-                </div>
-              </a>
-
-              <a href='http://addressthomas.surge.sh/'>
-                <div class='projects'>
-                  <img src="images/contact.png">
-                  <span class='description'>A simple address book app made using Backbone for routing.</span>
-                </div>
-              </a>
-
-            </div>
-
-          </div>
-        
-
-
-
-      
-      <div id='form' class="hidden">
-          
-          <h2>Let me get to know you.</h2>
-
-           <form action="//formspree.io/thomasshannon1117@yahoo.com" method="POST">
-
-           <div class='input-contain'>
-
-               
-
-               <input class="form-input" id="email" type="email" name="_replyto" placeholder="email" required>
-
-               <textarea class="form-input" id="message" type="text" name="description" placeholder="feel free to ask any questions about my projects, rates, or just to chat..." required></textarea>
-
-               <input id='sendMessage' class='btn btn-primary pull-right' type="submit" value="Send">
-
-            </div>
-
-           </form>
-
-      </div>
-      
-       <!--  <div id="about">
-          
-          <footer>
-          
-            <div id="profileContain">
-              <div>
-                <img id='profile'src="images/profile.jpg" />
-                <h4 class ='bio-header'>A very brief bio:</h4>
-                <p id='description' class='contactInfo'>Thomas Shannon is a front end engineer who builds cool webapps and loves solving puzzles. He plays a mean game of ping pong and would love to hear about your creative project!</p>
               </div>
-              <div>
-                <ul>
-
-                  <li class='contactInfo'>
-                    <a href="tel://1-702-347-0469">702-347-0469</a>
-                  </li>
-
-                  <li class='contactInfo'>
-                    <a href="mailto:thomasshannon1117@yahoo.com" target="_blank">thomasshannon1117@yahoo.com</a></li>
-
-                  <li class='contactInfo'>
-                    <a href='https://github.com/thomas1117'target="_blank">GitHub</a>
-                  </li>
-
-                </ul>
-              </div>
-            </div>
-
-
-          </footer> -->
-
+            
+            
+            </footer> -->
       </div>
-  
-
-        <script type="text/javascript" src="jquery-3.0.0.min.js"></script>
-        <script type="text/javascript" src="main.js"></script>
-       
-  </body>
+      <script type="text/javascript" src="jquery-3.0.0.min.js"></script>
+      <script type="text/javascript" src="main.js"></script>
+   </body>
 </html>

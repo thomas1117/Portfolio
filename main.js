@@ -9,7 +9,9 @@ $(document).ready(function() {
 			$("#overlay").toggleClass("hidden");
 			$('#form').toggleClass('hidden');
 		}
-	})
+	});
+
+
 
 	$("#form").on("submit", function(e) {
 		e.preventDefault();
@@ -32,11 +34,29 @@ $(document).ready(function() {
 		$('#email').val('')
 		$('#message').val('') 
 
-
-
 	});
+
+	$.ajax({
+		url:'./db.json',
+		method:'GET',
+		success:function(resp){
+			fillData(resp);
+		}
+	})
 });
 
+
+function fillData(resp) {
+	var str = "";
+
+	resp.forEach(function(data){
+		str+= "<a href=" + data.url + "/><div class='projects'>" + "<img src=" + data.img + "/><span class='description'>"+ data.description + "</span></div></a>"
+	});
+
+	$('#project-content').html(str);
+	$('#projects').show();
+	
+}
 
 
 
