@@ -50,7 +50,7 @@ function fillData(resp) {
 	var str = "";
 
 	resp.forEach(function(data){
-		str+= "<a href=" + data.url + "/><div class='projects'>" + "<img src=" + data.img + "/><span class='description'>"+ data.description + "</span></div></a>"
+		str+= "<a href=" + data.url + "><div class='projects'>" + "<img src=" + data.img + "/><span class='description'>"+ data.description + "</span></div></a>"
 	});
 
 	$('#project-content').html(str);
