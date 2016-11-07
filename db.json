@@ -1,21 +1,21 @@
 [
 	{
-	"url":"http://rocket-dev.surge.sh/mission-control.html",
+	"url":"http://rocket-dev.surge.shmission-control.html",
 	"img":"images/roceteer.png",
 	"description":"Roceteer"
 	},
 	{
-	"url":"http://sales-modal.surge.sh/",
+	"url":"http://sales-modal.surge.sh",
 	"img":"images/sales-modal.png",
 	"description":"A sales order modal and contact form with validation."
 	},
 	{
-	"url":"http://etsythomas.surge.sh/",
+	"url":"http://etsythomas.surge.sh",
 	"img":"images/etsy.png",
 	"description":"Here is a recreation of Etsys layout, pulling data from Etsy's Api."
 	},
 	{
-	"url":"http://jto-restaurant.surge.sh/",
+	"url":"http://jto-restaurant.surge.sh",
 	"img":"images/restaurant.png",
 	"description":"An elegant restaurant site made using Mustache and pulling from a heroku api."
 	},
@@ -30,7 +30,7 @@
 	"description":"A classic game remade using javascript with a koonami easter egg added!"
 	},
 	{
-	"url":"http://addressthomas.surge.sh/",
+	"url":"http://addressthomas.surge.sh",
 	"img":"images/contact.png",
 	"description":"A simple address book app made using Backbone for routing."
 	}
