@@ -216,6 +216,7 @@ textarea {
     background-color: #000;
     border: 1px solid #979797;
     padding: 10px;
+    color:#f9f9f9;
 }
 .image-container-master {
     position: relative;
