@@ -309,12 +309,12 @@ footer a {
 }
 @media screen and (max-width: 850px) {
     footer {
-        width: 300px;
+        width: 320px;
     }
     footer img {
         display: block;
         margin: auto;
-        width: 300px;
+        width: 320px;
         height: auto;
     }
     body .bio-content {
@@ -349,10 +349,12 @@ footer a {
     body .projects {
         margin: 0px 0px 20px 0px;
     }
-    body .projects img {
-        width: 280px;
+    
+    body img {
+        width: 320px;
         height: auto;
     }
+
 }
 @media screen and (max-width: 360px) {
     li.name {
