@@ -8,7 +8,6 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  display: flex;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
@@ -45,11 +44,9 @@ h2 {
  a {
 	text-decoration: none;
 	cursor: pointer;
+	color:#fff;
 }
 
-a:visited {
-	color: #8aacb8;
-}
 
 a:hover {
 	text-decoration: underline;
@@ -66,7 +63,7 @@ textarea {
 
 .nav {
 	position: fixed;
-    background: #333333;
+    background: #303030;
     color: #f9f9f9;
     width: 100%;
     z-index: 777;
@@ -118,6 +115,7 @@ textarea {
 .header {
 	background-color: #333333;
 	height: 100vh;
+	width:100%;
 	display: table;
 	
 }
@@ -126,13 +124,8 @@ textarea {
 	display: table-cell;
 	vertical-align: middle;
 	color: #f9f9f9;
+	font-size: 2.25em;
 }
-
-#content {
-	position: relative;
-	height: 100%;
-}
-
 
 #overlay  {
 	background-color: black;
@@ -147,14 +140,33 @@ textarea {
 	z-index: 2;
 }
 
-@media (max-width: 380px) {
+@media screen and (max-width: 420px) {
 	body #form {
 		width:360px!important;	
+	}
+
+	body #form h2 {font-size: 1.7em;}
+	#form textarea {padding-bottom: 23px;}
+	h2 {font-size: 2em;}
+	.header h2 {font-size: 2.5em;line-height: 1.2;padding:35px;}
+	body .projects {margin:0px 0px 20px 0px;}
+	body .projects img {width:280px;height:auto;}
+}
+
+@media screen and (max-width: 360px) {
+	li.name {display: none;}
+	.link-contain {position: relative;text-align: center;}
+}
+
+@media screen and (max-width: 320px) {
+	body #form {
+		width:320px!important;	
 	}
 
 	#form h2 {
 		font-size: 2rem;
 	}
+
 }
 
 #form {
@@ -170,6 +182,8 @@ textarea {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+#form h2 {color:#A9A9A9;font-size: 3rem;}
 
 .hidden {
 	display: none;
@@ -196,8 +210,21 @@ textarea {
 }
 
 .form-input:focus {
+	border-color:#74118D;
+
+}
+
+/*.form-input:focus {
 	border-color:#CA44EB;
 
+}*/
+
+/*#sendMessage:hover {
+	background-color:#CA44EB;
+}*/
+
+#sendMessage:hover {
+	background-color:#74118D;
 }
 
 
@@ -211,9 +238,7 @@ textarea {
 	padding: 10px;
 }
 
-#sendMessage:hover {
-	background-color:#CA44EB;
-}
+
 
 .image-container-master {
 	position: relative;
@@ -226,10 +251,17 @@ textarea {
 	display: none;
 }
 
+.project-header{
+	padding-top:60px;
+	color:#333333;
+	margin:0;
+}
+
 .projects {
 	display: inline-block;
 	position: relative;
-	margin:0px 15px 35px 15px;
+	overflow: hidden;
+	margin:0px 55px 85px 40px;
 }
 
 .projects:hover img {
@@ -267,6 +299,7 @@ a {z-index: 778;}
 	display: none;
 	color:#fff;
 	padding:15px;
+	width:95%;
 	border-radius: 2px;
 	background-color: #000;
 }
