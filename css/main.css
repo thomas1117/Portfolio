@@ -262,7 +262,7 @@ a {
 }
 .description {
     position: absolute;
-    top: 50%;
+    bottom: 0;
     text-align: left;
     display: none;
     color: #fff;
