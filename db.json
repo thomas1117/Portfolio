@@ -5,6 +5,11 @@
 	"description":"Roceteer"
 	},
 	{
+	"url":"http://cal-calculator.surge.sh",
+	"img":"images/calorie-calculator.png",
+	"description":"A simple calorie calculator"
+	},
+	{
 	"url":"http://sales-modal.surge.sh",
 	"img":"images/sales-modal.png",
 	"description":"A sales order modal and contact form with validation."
