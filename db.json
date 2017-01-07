@@ -5,6 +5,11 @@
 	"description":"Roceteer"
 	},
 	{
+	"url":"http://piano-thomas.surge.sh",
+	"img":"images/piano.png",
+	"description":"Piano"
+	},
+	{
 	"url":"http://cal-calculator.surge.sh",
 	"img":"images/calorie-calculator.png",
 	"description":"A simple calorie calculator"
